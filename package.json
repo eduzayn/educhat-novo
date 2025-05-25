@@ -143,19 +143,12 @@
     "vitest": "3.0.5"
   },
   "engines": {
-    "node": "23.x",
-    "pnpm": "10.x"
+    "node": "20.x",
+    "npm": ">=8.0.0"
   },
   "husky": {
     "hooks": {
       "pre-push": "sh bin/validate_push"
-    }
-  },
-  "pnpm": {
-    "overrides": {
-      "vite-node": "2.0.1",
-      "vite": "5.4.19",
-      "vitest": "3.0.5"
     }
   },
   "lint-staged": {
@@ -166,6 +159,5 @@
     "*.scss": [
       "scss-lint"
     ]
-  },
-  "packageManager": "pnpm@10.2.0+sha512.0d27364e0139c6aadeed65ada153135e0ca96c8da42123bd50047f961339dc7a758fc2e944b428f52be570d1bd3372455c1c65fa2e7aa0bfbf931190f9552001"
+  }
 }
