@@ -146,6 +146,10 @@
     "node": "20.x",
     "npm": ">=8.0.0"
   },
+  "overrides": {
+    "@stdlib/number-float64-base-normalize": "0.0.8",
+    "@stdlib/math-base-special-ldexp": "0.0.6"
+  },
   "husky": {
     "hooks": {
       "pre-push": "sh bin/validate_push"
